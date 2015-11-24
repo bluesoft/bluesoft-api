@@ -4,7 +4,7 @@
 
     <groupId>br.com.bluesoft.api</groupId>
     <artifactId>bluesoft-api</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>
@@ -18,7 +18,7 @@
         <connection>scm:git:git@github.com:bluesoft/bluesoft-api.git</connection>
         <developerConnection>scm:git:git@github.com:bluesoft/bluesoft-api.git</developerConnection>
         <url>scm:git:git@github.com:bluesoft/bluesoft-api.git</url>
-        <tag>bluesoft-api-1.0</tag>
+        <tag>erp-api-1.0</tag>
     </scm>
 
     <build>
