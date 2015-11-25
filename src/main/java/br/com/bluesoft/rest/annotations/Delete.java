@@ -1,19 +1,18 @@
-package br.com.bluesoft.api.annotations;
+package br.com.bluesoft.rest.annotations;
 
 import org.springframework.core.annotation.AliasFor;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.lang.annotation.*;
 
-@RequestMapping(method = RequestMethod.GET)
-@ResponseStatus(HttpStatus.OK)
+@RequestMapping(method = RequestMethod.DELETE)
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Get {
+@ResponseBody
+public @interface Delete {
 
     @AliasFor(annotation = RequestMapping.class, attribute = "name")
     String name() default "";
@@ -34,5 +33,3 @@ public @interface Get {
     String[] produces() default {};
 
 }
-
-

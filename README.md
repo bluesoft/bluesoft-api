@@ -1,4 +1,4 @@
-# bluesoft-api
+# bluesoft-rest
 Project created to share code used to create spring restful api
 
 ## Spring Annotations

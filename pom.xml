@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>br.com.bluesoft.api</groupId>
-    <artifactId>bluesoft-api</artifactId>
+    <groupId>br.com.bluesoft.rest</groupId>
+    <artifactId>bluesoft-rest</artifactId>
     <version>1.1-SNAPSHOT</version>
 
     <distributionManagement>
@@ -15,10 +15,10 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:bluesoft/bluesoft-api.git</connection>
-        <developerConnection>scm:git:git@github.com:bluesoft/bluesoft-api.git</developerConnection>
-        <url>scm:git:git@github.com:bluesoft/bluesoft-api.git</url>
-        <tag>erp-api-1.0</tag>
+        <connection>scm:git:git@github.com:bluesoft/bluesoft-rest.git</connection>
+        <developerConnection>scm:git:git@github.com:bluesoft/bluesoft-rest.git</developerConnection>
+        <url>scm:git:git@github.com:bluesoft/bluesoft-rest.git</url>
+        <tag>bluesoft-rest-1.0</tag>
     </scm>
 
     <build>
